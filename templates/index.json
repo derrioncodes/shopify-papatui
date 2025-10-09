@@ -79,6 +79,7 @@
         "column_UGyqkM": {
           "type": "column",
           "settings": {
+            "column_image": "shopify://shop_images/Papatui_Sulfate_Free_Icon_Ingredient.png",
             "alt_text": "Icon Image",
             "heading": "FORMULATED WITHOUT SULFATES",
             "subtext": "Sulfates can compromise the balance of your skin. Our cleansers don't have them."
@@ -96,6 +97,7 @@
         "column_NMmm3w": {
           "type": "column",
           "settings": {
+            "column_image": "shopify://shop_images/Papatui_Phalate_Free_Icon_Ingredient.png",
             "alt_text": "Icon Image",
             "heading": "PHTHALATE FREE",
             "subtext": "Phthalates, aka Potential Hormone Disruptors. You don't need them, so we don't use them."
@@ -104,6 +106,7 @@
         "column_Uyc9LL": {
           "type": "column",
           "settings": {
+            "column_image": "shopify://shop_images/Papatui_Cruelty_Free_Icon_Ingredient.png",
             "alt_text": "Icon Image",
             "heading": "CRUELTY FREE",
             "subtext": "These products were never tested on animals. But lots of humans have tried them. And they like them."
@@ -112,6 +115,7 @@
         "column_9KzAkm": {
           "type": "column",
           "settings": {
+            "column_image": "shopify://shop_images/Papatui_Vegan_Icon_Ingredient.png",
             "alt_text": "Icon Image",
             "heading": "VEGAN",
             "subtext": "You'll never find animal-derived ingredients in our products. Just premium formulations at the right price"
