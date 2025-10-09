@@ -131,11 +131,62 @@
       ],
       "name": "Multi Columns",
       "settings": {}
+    },
+    "collection_slider_4qT4Dz": {
+      "type": "collection-slider",
+      "name": "Collection Slider",
+      "settings": {
+        "collection": "bestsellers"
+      }
+    },
+    "customer_reviews_CkgJMy": {
+      "type": "customer-reviews",
+      "blocks": {
+        "column_AHkeR9": {
+          "type": "column",
+          "settings": {
+            "alt_text": "Star Icon",
+            "heading": "ENHANCING TATTOO STICK",
+            "subtext": "My tattoos haven't looked so good!! Even My 30 year old tatts look fresh! Outstanding product!!!",
+            "customer_name": "Michael B."
+          }
+        },
+        "column_mEqGez": {
+          "type": "column",
+          "settings": {
+            "alt_text": "Star Icon",
+            "heading": "48-HOUR ANTIPERSPIRANT DEODORANT",
+            "subtext": "PAPATUI deodorant smells amazing! I bought a few for my husband and two sons to use. I bought the coconut deodorants and my whole family smells amazing!",
+            "customer_name": "Nicole S."
+          }
+        },
+        "column_mJczJR": {
+          "type": "column",
+          "settings": {
+            "alt_text": "Star Icon",
+            "heading": "RESTORING DAILY FACIAL MOISTURIZER",
+            "subtext": "I use this almost as religiously as the facial cleanser and the results have been great for my face so far. These 2 face products alone have done wonders for my skin care routine.",
+            "customer_name": "Dennis F."
+          }
+        }
+      },
+      "block_order": [
+        "column_AHkeR9",
+        "column_mEqGez",
+        "column_mJczJR"
+      ],
+      "name": "Customer Reviews",
+      "settings": {
+        "title": "What real guys are saying",
+        "enable_margin_bottom": true
+      }
     }
   },
   "order": [
     "hero_zxyGbq",
     "image_text_t8z6wD",
-    "multi_columns_bL9ckr"
+    "multi_columns_bL9ckr",
+    "collection_slider_4qT4Dz",
+    "customer_reviews_CkgJMy"
   ]
 }
