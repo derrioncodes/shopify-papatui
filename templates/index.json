@@ -1,10 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        // "hero": {
-        //     "type": "hero"
-        // }
-    },
-    "order": [
-        // "hero"
-    ]
+  "sections": {
+    "hero_zxyGbq": {
+      "type": "hero",
+      "blocks": {
+        "slide_AfyENi": {
+          "type": "slide",
+          "settings": {
+            "asset_type": "image",
+            "alt_text": "Promotional banner",
+            "text_position": "left",
+            "heading": "It's time to take better care",
+            "enable_subtext": true,
+            "subtext": "Everything you need to stay fresh & confident",
+            "button_text": "Shop skincare",
+            "button_link": "shopify://collections/shop-all"
+          }
+        },
+        "slide_UKz7B9": {
+          "type": "slide",
+          "settings": {
+            "asset_type": "video",
+            "alt_text": "Promotional banner",
+            "text_position": "left",
+            "heading": "The Rock's got your routine covered",
+            "enable_subtext": false,
+            "subtext": "Everything you need to stay fresh & confident",
+            "button_text": "Shop skincare",
+            "button_link": "shopify://collections/shop-all"
+          }
+        },
+        "slide_UKab4F": {
+          "type": "slide",
+          "settings": {
+            "asset_type": "image",
+            "alt_text": "Promotional banner",
+            "text_position": "left",
+            "heading": "New full body deodorant",
+            "enable_subtext": true,
+            "subtext": "Sweat doesn't stop at your pits, neither does your deodorant",
+            "button_text": "Shop Now",
+            "button_link": "shopify://collections/antiperspirant-deodorant"
+          }
+        }
+      },
+      "block_order": [
+        "slide_AfyENi",
+        "slide_UKz7B9",
+        "slide_UKab4F"
+      ],
+      "name": "Hero Slider",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero_zxyGbq"
+  ]
 }
