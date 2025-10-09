@@ -12,19 +12,6 @@
     "hero_zxyGbq": {
       "type": "hero",
       "blocks": {
-        "slide_ByPbeQ": {
-          "type": "slide",
-          "settings": {
-            "asset_type": "image",
-            "alt_text": "Promotional banner",
-            "text_position": "left",
-            "heading": "It's time to take better care",
-            "enable_subtext": true,
-            "subtext": "Everything you need to stay fresh & confident",
-            "button_text": "Shop skincare",
-            "button_link": "/"
-          }
-        },
         "slide_AfyENi": {
           "type": "slide",
           "settings": {
@@ -67,7 +54,6 @@
         }
       },
       "block_order": [
-        "slide_ByPbeQ",
         "slide_AfyENi",
         "slide_UKz7B9",
         "slide_UKab4F"
