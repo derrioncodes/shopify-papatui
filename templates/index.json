@@ -59,9 +59,23 @@
       ],
       "name": "Hero Slider",
       "settings": {}
+    },
+    "image_text_t8z6wD": {
+      "type": "image-text",
+      "name": "Image Text Default",
+      "settings": {
+        "image_position": "right",
+        "image": "shopify://shop_images/AboutPage_image.png",
+        "alt_text": "Promotional Image",
+        "heading": "DERMATOLOGIST TESTED MEN'S CARE THAT WORKS",
+        "subtext": "Science backed formulations built for performance",
+        "button_text": "Shop all",
+        "button_link": "/"
+      }
     }
   },
   "order": [
-    "hero_zxyGbq"
+    "hero_zxyGbq",
+    "image_text_t8z6wD"
   ]
 }
