@@ -898,6 +898,9 @@
   .resize {
     resize: both;
   }
+  .scroll-mt-\[120px\] {
+    scroll-margin-top: 120px;
+  }
   .appearance-none {
     appearance: none;
   }
