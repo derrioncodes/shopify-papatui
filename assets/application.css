@@ -565,6 +565,9 @@
   .block {
     display: block;
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
   }
@@ -789,6 +792,9 @@
   }
   .max-w-\[700px\] {
     max-width: 700px;
+  }
+  .max-w-\[740px\] {
+    max-width: 740px;
   }
   .max-w-\[750px\] {
     max-width: 750px;
@@ -1311,6 +1317,9 @@
   }
   .px-\[40px\] {
     padding-inline: 40px;
+  }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
@@ -2900,6 +2909,21 @@
       line-height: 40px;
     }
   }
+  .xl\:relative {
+    @media (width >= 80rem) {
+      position: relative;
+    }
+  }
+  .xl\:sticky {
+    @media (width >= 80rem) {
+      position: sticky;
+    }
+  }
+  .xl\:top-\[18px\] {
+    @media (width >= 80rem) {
+      top: 18px;
+    }
+  }
   .xl\:right-\[30px\] {
     @media (width >= 80rem) {
       right: 30px;
@@ -2910,9 +2934,24 @@
       margin-inline: calc(var(--spacing) * 0);
     }
   }
+  .xl\:mx-auto {
+    @media (width >= 80rem) {
+      margin-inline: auto;
+    }
+  }
   .xl\:mt-0 {
     @media (width >= 80rem) {
       margin-top: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:block {
+    @media (width >= 80rem) {
+      display: block;
+    }
+  }
+  .xl\:flex {
+    @media (width >= 80rem) {
+      display: flex;
     }
   }
   .xl\:h-\[88px\] {
@@ -2920,9 +2959,39 @@
       height: 88px;
     }
   }
+  .xl\:w-\[250px\] {
+    @media (width >= 80rem) {
+      width: 250px;
+    }
+  }
+  .xl\:w-full {
+    @media (width >= 80rem) {
+      width: 100%;
+    }
+  }
+  .xl\:max-w-\[740px\] {
+    @media (width >= 80rem) {
+      max-width: 740px;
+    }
+  }
+  .xl\:max-w-\[990px\] {
+    @media (width >= 80rem) {
+      max-width: 990px;
+    }
+  }
   .xl\:grid-cols-4 {
     @media (width >= 80rem) {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .xl\:items-start {
+    @media (width >= 80rem) {
+      align-items: flex-start;
+    }
+  }
+  .xl\:self-start {
+    @media (width >= 80rem) {
+      align-self: flex-start;
     }
   }
   .xl\:px-\[30px\] {
