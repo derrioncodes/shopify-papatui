@@ -901,6 +901,9 @@
   .scroll-mt-\[120px\] {
     scroll-margin-top: 120px;
   }
+  .scroll-mt-\[140px\] {
+    scroll-margin-top: 140px;
+  }
   .appearance-none {
     appearance: none;
   }
@@ -3007,6 +3010,21 @@
       padding-top: calc(var(--spacing) * 0);
     }
   }
+  .\32 xl\:relative {
+    @media (width >= 96rem) {
+      position: relative;
+    }
+  }
+  .\32 xl\:sticky {
+    @media (width >= 96rem) {
+      position: sticky;
+    }
+  }
+  .\32 xl\:top-\[18px\] {
+    @media (width >= 96rem) {
+      top: 18px;
+    }
+  }
   .\32 xl\:right-\[100px\] {
     @media (width >= 96rem) {
       right: 100px;
@@ -3017,9 +3035,44 @@
       left: 100px;
     }
   }
+  .\32 xl\:block {
+    @media (width >= 96rem) {
+      display: block;
+    }
+  }
+  .\32 xl\:flex {
+    @media (width >= 96rem) {
+      display: flex;
+    }
+  }
+  .\32 xl\:w-\[250px\] {
+    @media (width >= 96rem) {
+      width: 250px;
+    }
+  }
+  .\32 xl\:w-full {
+    @media (width >= 96rem) {
+      width: 100%;
+    }
+  }
   .\32 xl\:max-w-\[300px\] {
     @media (width >= 96rem) {
       max-width: 300px;
+    }
+  }
+  .\32 xl\:max-w-\[990px\] {
+    @media (width >= 96rem) {
+      max-width: 990px;
+    }
+  }
+  .\32 xl\:items-start {
+    @media (width >= 96rem) {
+      align-items: flex-start;
+    }
+  }
+  .\32 xl\:self-start {
+    @media (width >= 96rem) {
+      align-self: flex-start;
     }
   }
 }
