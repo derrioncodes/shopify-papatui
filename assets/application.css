@@ -2647,9 +2647,19 @@
       padding-inline: calc(var(--spacing) * 0);
     }
   }
+  .md\:px-\[18px\] {
+    @media (width >= 48rem) {
+      padding-inline: 18px;
+    }
+  }
   .md\:pt-4 {
     @media (width >= 48rem) {
       padding-top: calc(var(--spacing) * 4);
+    }
+  }
+  .md\:pb-\[30px\] {
+    @media (width >= 48rem) {
+      padding-bottom: 30px;
     }
   }
   .md\:text-base {
