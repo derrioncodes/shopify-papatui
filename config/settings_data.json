@@ -12,6 +12,19 @@
     "sections": {
       "header": {
         "type": "header",
+        "blocks": {
+          "announcement_nN8DUT": {
+            "type": "announcement",
+            "settings": {
+              "text": "FREE SHIPPING ON ORDERS $40+",
+              "link": "shopify://collections/shop-all",
+              "link_text": "SHOP NOW"
+            }
+          }
+        },
+        "block_order": [
+          "announcement_nN8DUT"
+        ],
         "settings": {
           "menu": "main-menu",
           "search-menu": "main-menu",
